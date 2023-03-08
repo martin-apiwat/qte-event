@@ -51,3 +51,7 @@ button {
   bottom: -30px;
   transform: translateX(-50%);
 }
+
+button:hover {
+  filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
+}
